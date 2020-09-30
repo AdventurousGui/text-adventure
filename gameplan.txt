@@ -1,0 +1,19 @@
+main:
+    * Engine
+      - play
+
+map:
+  * Scene:
+      - enter
+      * Death
+      * LobbyRoom
+      * WeaponRoom
+      * KoiPondRoom
+      * BossRoom
+      * VaultRoom
+    
+Action:
+    - continue
+    - punch
+    - grab
+    - shoot
